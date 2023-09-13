@@ -51,7 +51,7 @@ local opts = { noremap = true, silent = true }
 keymap.set(
 	"n",
 	";f",
-	'<cmd>lua require("telescope.builtin").find_files({ no_ignore = false, hidden = true })<cr>',
+	'<cmd>lua require("telescope.builtin").find_files({ no_ignore = false, hidden = false })<cr>',
 	opts
 )
 keymap.set("n", ";r", '<cmd>lua require("telescope.builtin").live_grep()<cr>', opts)
