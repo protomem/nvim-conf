@@ -48,3 +48,13 @@ lspconfig.tsserver.setup({
 	filetypes = { "javascript", "javascriptreact", "javascript.jsx", "typescript", "typescriptreact", "typescript.tsx" },
 	cmd = { "typescript-language-server", "--stdio" },
 })
+
+-- C/C++
+lspconfig.clangd.setup({
+	on_attach = on_attach,
+})
+
+-- Rust
+lspconfig.rust_analyzer.setup({
+	on_attach = on_attach,
+})
