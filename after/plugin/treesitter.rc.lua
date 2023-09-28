@@ -11,7 +11,6 @@ ts.setup({
 
 	indent = {
 		enable = true,
-		disable = {},
 	},
 
 	ensure_installed = {
@@ -19,6 +18,7 @@ ts.setup({
 		"go",
 		"c",
 		"cpp",
+		"zig",
 		"html",
 		"css",
 		"javascript",
@@ -27,6 +27,7 @@ ts.setup({
 		"json",
 		"markdown",
 		"markdown_inline",
+		"fish",
 	},
 
 	autotag = {

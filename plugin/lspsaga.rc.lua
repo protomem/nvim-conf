@@ -3,7 +3,11 @@ if not status then
 	return
 end
 
-saga.setup({})
+saga.setup({
+	ui = {
+		code_action = "󱐋",
+	},
+})
 
 -- Mappings
 local keymap = vim.keymap

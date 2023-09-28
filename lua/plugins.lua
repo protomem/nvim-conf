@@ -49,6 +49,9 @@ lazy.setup({
 		build = ":TSUpdate",
 	},
 
+	-- Indentation
+	{ "lukas-reineke/indent-blankline.nvim" },
+
 	-- Pairs and tags
 	{
 		"windwp/nvim-autopairs",

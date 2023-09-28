@@ -5,4 +5,4 @@ vim.opt.wildoptions = "pum"
 vim.opt.pumblend = 5
 vim.opt.background = "dark"
 
-vim.cmd [[ hi Normal guibg=NONE ctermbg=NONE ]]
+vim.cmd([[ hi Normal guibg=NONE ctermbg=NONE ]])

@@ -30,6 +30,7 @@ lspconfig.lua_ls.setup({
 
 			workspace = {
 				library = vim.api.nvim_get_runtime_file("", true),
+				checkThirdParty = false,
 			},
 		},
 	},
@@ -54,7 +55,12 @@ lspconfig.clangd.setup({
 	on_attach = on_attach,
 })
 
--- Rust
-lspconfig.rust_analyzer.setup({
+-- Zig
+lspconfig.zls.setup({
+	on_attach = on_attach,
+})
+
+-- Python
+lspconfig.pyright.setup({
 	on_attach = on_attach,
 })
