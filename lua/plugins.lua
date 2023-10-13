@@ -41,7 +41,8 @@ lazy.setup({
 	{ "MunifTanjim/prettier.nvim" },
 
 	-- Snippet
-	{ "L3MON4D3/LuaSnip" },
+	{ "L3MON4D3/LuaSnip", dependencies = "rafamadriz/friendly-snippets" },
+	{ "saadparwaiz1/cmp_luasnip" },
 
 	-- Treesitter
 	{
@@ -50,7 +51,7 @@ lazy.setup({
 	},
 
 	-- Indentation
-	{ "lukas-reineke/indent-blankline.nvim" },
+	{ "lukas-reineke/indent-blankline.nvim", main = "ibl" },
 
 	-- Pairs and tags
 	{

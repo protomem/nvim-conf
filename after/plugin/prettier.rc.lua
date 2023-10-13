@@ -16,4 +16,7 @@ prettier.setup({
 		"typescript",
 		"typescriptreact",
 	},
+	["null-ls"] = {
+		timeout = 9000,
+	},
 })
