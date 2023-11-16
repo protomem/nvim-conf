@@ -50,17 +50,14 @@ lspconfig.tsserver.setup({
 	cmd = { "typescript-language-server", "--stdio" },
 })
 
--- C/C++
-lspconfig.clangd.setup({
-	on_attach = on_attach,
-})
-
 -- Zig
 lspconfig.zls.setup({
 	on_attach = on_attach,
+	cmd = { "zls" },
 })
 
--- Python
-lspconfig.pyright.setup({
+-- C/C++
+lspconfig.clangd.setup({
 	on_attach = on_attach,
+	cmd = { "clangd" },
 })
