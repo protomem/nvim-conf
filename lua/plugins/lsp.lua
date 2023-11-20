@@ -19,6 +19,7 @@ return {
         "zls",
         "clangd",
         "clang-format",
+        "elixir-ls",
       })
     end,
   },

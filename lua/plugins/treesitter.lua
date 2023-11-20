@@ -13,6 +13,9 @@ return {
       "fish",
       "sql",
       "scss",
+      "elixir",
+      "heex",
+      "eex",
     },
   },
   config = function(_, opts)
